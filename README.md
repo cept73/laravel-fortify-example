@@ -1,5 +1,5 @@
-# Laravel Fortify Example
-Laravel Authentication Scaffold using Laravel Fortify and Bootstrap.
+# Laravel 11 Fortify Example
+Laravel 11 Authentication Scaffold using Laravel Fortify and Bootstrap.
 
 
 ## Video Tutorials
@@ -31,4 +31,16 @@ $ php artisan key:generate
 
 # run migration
 $ php artisan migrate
+```
+
+Register at mailtrap.io or other service and paste credentials at .env to send messages:
+```dotenv
+MAIL_MAILER=smtp
+MAIL_HOST=sandbox.smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=123456789
+MAIL_PASSWORD=987654321
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=admin@localhost
+MAIL_FROM_NAME="${APP_NAME}"
 ```
